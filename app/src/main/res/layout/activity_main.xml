@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.qfz.app.projectscollect.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Nanodegree Apps!" />
+
+    <Button
+        android:id="@+id/popular_movies_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POPULAR MOVIES"/>
+    <Button
+        android:id="@+id/stock_hawk_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STOCK HAWK"/>
+    <Button
+        android:id="@+id/build_it_bigger_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUILD IT BIGGER"/>
+    <Button
+        android:id="@+id/make_yout_app_material_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAKE YOUR APP MATERIAL"/>
+    <Button
+        android:id="@+id/go_ubiquitous_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO UBIQUITOUS"/>
+    <Button
+        android:id="@+id/capstone_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAPSTONE"/>
+</LinearLayout>
